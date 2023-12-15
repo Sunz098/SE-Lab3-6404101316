@@ -12,7 +12,7 @@
         label="name  *"
         hint="name and lastname"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'กรุณาใส่ชื่อและนามสกุล']"
+        :rules="[ val => val && val.length > 0 || 'plase type']"
       />
 
       <q-input
